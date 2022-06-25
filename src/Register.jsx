@@ -45,7 +45,7 @@ function Register() {
 
           <TitleSpan>Senha:</TitleSpan>
           <Input
-            type="text"
+            type="password"
             id="password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
