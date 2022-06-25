@@ -35,7 +35,7 @@ function Register() {
       <Title style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
         CADASTRO
       </Title>
-      <Container style={{ marginTop: '22px' }}>
+      <Container style={{ marginTop: '22px', width: '97%' }}>
         <form onSubmit={handleSubmit}>
           <TitleSpan>Name:</TitleSpan>
           <Input id="name" type="name" value={name} onChange={(e) => setName(e.target.value)} />

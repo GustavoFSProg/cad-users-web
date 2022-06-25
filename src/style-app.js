@@ -19,9 +19,8 @@ export const TitleSpan = styled.span`
 `
 export const Input = styled.input`
   font-family: Roboto;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: green;
-  align-items: flex-start;
   display: flex;
   width: 28rem;
   height: 40px;

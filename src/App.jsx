@@ -42,10 +42,17 @@ function App() {
             height: 'auto',
             paddingBottom: '30px',
             paddingTop: '30px',
-            // width: '100vw',
+            width: '100vw',
           }}
         >
-          <div style={{ width: '100%' }}>
+          <div
+            style={{
+              display: 'flex',
+              justifyContent: 'center',
+              alignItems: 'center',
+              width: '81%',
+            }}
+          >
             <form onSubmit={handleSubmit}>
               <TitleSpan>Email:</TitleSpan>
               <Input
