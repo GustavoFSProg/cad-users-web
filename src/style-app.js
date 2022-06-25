@@ -22,6 +22,8 @@ export const Input = styled.input`
   font-size: 1.1rem;
   color: green;
   display: flex;
+  align-items: center;
+  align-items: center;
   width: 28rem;
   height: 40px;
   border-radius: 14px;
@@ -30,7 +32,7 @@ export const Input = styled.input`
   background: #ffffe6;
   border: 1px solid #cccc00;
 
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 400px) {
     width: 100%;
   }
 `

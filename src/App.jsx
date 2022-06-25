@@ -50,7 +50,7 @@ function App() {
               display: 'flex',
               justifyContent: 'center',
               alignItems: 'center',
-              width: '82%',
+              // width: '82%',
             }}
           >
             <form onSubmit={handleSubmit}>
