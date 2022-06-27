@@ -24,6 +24,19 @@ function Header() {
           fontWeight: 'bold',
           color: 'white',
         }}
+        to="/dashboard"
+      >
+        DASHBOARD
+      </Link>
+
+      <Link
+        style={{
+          textDecoration: 'none',
+          fontSize: '1.17rem',
+          fontFamily: 'Garamond',
+          fontWeight: 'bold',
+          color: 'white',
+        }}
         to="/register"
       >
         CADASTRO
