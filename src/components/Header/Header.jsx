@@ -11,7 +11,7 @@ function Header() {
           style={{
             textDecoration: 'none',
             fontSize: '1.17rem',
-            fontFamily: 'Garamond',
+            fontFamily: 'Roboto',
             fontWeight: 'bold',
             color: 'white',
           }}
@@ -23,7 +23,7 @@ function Header() {
           style={{
             textDecoration: 'none',
             fontSize: '1.17rem',
-            fontFamily: 'Garamond',
+            fontFamily: 'Roboto',
             fontWeight: 'bold',
             color: 'white',
           }}
@@ -36,7 +36,7 @@ function Header() {
           style={{
             textDecoration: 'none',
             fontSize: '1.17rem',
-            fontFamily: 'Garamond',
+            fontFamily: 'Roboto',
             fontWeight: 'bold',
             color: 'white',
           }}
