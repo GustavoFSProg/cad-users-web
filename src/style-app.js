@@ -87,6 +87,6 @@ export const DivForm = styled.div`
   margin-top: -115px;
 
   @media screen and (max-width: 700px) {
-    margin-top: 5px;
+    margin-top: 85px;
   }
 `
