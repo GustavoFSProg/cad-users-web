@@ -23,7 +23,7 @@ function Footer() {
           >
             <img src={Whatsapp} alt="whataspp" width="25" />
             <span style={{ marginLeft: '10px', fontFamily: 'Arial', fontSize: '17px' }}>
-              (51)-9966996
+              (51)-0000000
             </span>
           </a>
         </ContainerImages>
