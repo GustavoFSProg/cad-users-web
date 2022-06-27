@@ -35,7 +35,7 @@ export default function SimpleMenu() {
           <Link
             style={{
               textDecoration: 'none',
-              fontSize: '1.17rem',
+              fontSize: '1rem',
               fontFamily: 'Roboto',
               fontWeight: 'bold',
               color: '#006666',
@@ -49,7 +49,7 @@ export default function SimpleMenu() {
           <Link
             style={{
               textDecoration: 'none',
-              fontSize: '1.17rem',
+              fontSize: '1rem',
               fontFamily: 'Roboto',
               fontWeight: 'bold',
               color: '#006666',
@@ -63,7 +63,7 @@ export default function SimpleMenu() {
           <Link
             style={{
               textDecoration: 'none',
-              fontSize: '1.17rem',
+              fontSize: '1rem',
               fontFamily: 'Roboto',
               fontWeight: 'bold',
               color: '#006666',

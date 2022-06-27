@@ -10,7 +10,7 @@ function Header() {
         <Link
           style={{
             textDecoration: 'none',
-            fontSize: '1.17rem',
+            fontSize: '1rem',
             fontFamily: 'Roboto',
             fontWeight: 'bold',
             color: 'white',
@@ -22,7 +22,7 @@ function Header() {
         <Link
           style={{
             textDecoration: 'none',
-            fontSize: '1.17rem',
+            fontSize: '1rem',
             fontFamily: 'Roboto',
             fontWeight: 'bold',
             color: 'white',
@@ -35,7 +35,7 @@ function Header() {
         <Link
           style={{
             textDecoration: 'none',
-            fontSize: '1.17rem',
+            fontSize: '1rem',
             fontFamily: 'Roboto',
             fontWeight: 'bold',
             color: 'white',
