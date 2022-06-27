@@ -32,7 +32,6 @@ function App() {
         <Image src={Imagem} alt="imagem" />
         <DivFormApp>
           <Title>LOGIN</Title>
-
           <form
             style={{
               display: 'flex',
@@ -84,7 +83,6 @@ function App() {
             <Button type="submit">Login</Button>
           </form>
         </DivFormApp>
-        {/* </div> */}
       </Container>
     </>
   )

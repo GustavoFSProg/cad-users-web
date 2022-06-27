@@ -7,8 +7,6 @@ export const Container = styled.div`
   align-items: center;
   width: 100vw;
   height: 100vh;
-
-  z-index: 999;
 `
 export const Image = styled.img`
   display: flex;
@@ -89,6 +87,8 @@ export const Title = styled.span`
   @media screen and (max-width: 700px) {
     color: #00aaff;
   }
+  //
+  //
 `
 export const DivFormApp = styled.div`
   display: flex;
@@ -98,7 +98,9 @@ export const DivFormApp = styled.div`
   flex: 1;
   margin-top: -115px;
 
-  @media screen and (max-width: 700px) {
+  /* margin-top: -115px; */
+
+  /* @media screen and (max-width: 700px) {
     margin-top: 25px;
     background: url(${Tigre}) no-repeat;
     background-size: cover;
@@ -106,7 +108,8 @@ export const DivFormApp = styled.div`
     padding-bottom: 20px;
 
     z-index: 0;
-  }
+  } */
+  //
 `
 export const DivFormRegister = styled.div`
   display: flex;
@@ -118,8 +121,8 @@ export const DivFormRegister = styled.div`
 
   @media screen and (max-width: 700px) {
     margin-top: 25px;
-    background: url(${Tigre}) no-repeat;
-    background-size: cover;
+    /* background: url(${Tigre}) no-repeat; */
+    /* background-size: cover; */
     margin-top: -105px;
     padding-bottom: 20px;
   }

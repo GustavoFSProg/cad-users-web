@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import api from './api'
 import Header from './components/Header/Header'
-import { Container, Image, DivFormRegister, Button, Input, TitleSpan, Title } from './style-app'
+import { Container, DivFormRegister, Image, Button, Input, TitleSpan, Title } from './style-app'
 import Imagem from './assets/foto2.jpeg'
 
 function Register() {
