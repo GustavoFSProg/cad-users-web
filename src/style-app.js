@@ -23,7 +23,7 @@ export const Input = styled.input`
   color: green;
   display: flex;
   align-items: center;
-  width: 28rem;
+  width: 27.2rem;
   height: 40px;
   border-radius: 14px;
   padding-left: 8px;
@@ -39,7 +39,7 @@ export const Button = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 29rem;
+  width: 28.2rem;
 
   border-radius: 10px;
   height: 3rem;
