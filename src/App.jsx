@@ -20,8 +20,6 @@ function App() {
 
       localStorage.setItem('Token', data.token)
 
-      // history.push('/dashboard')
-
       return alert('Login  realizado com sucesso!')
     } catch (error) {
       return alert(`Deu erro no front do no Login ${error}`)

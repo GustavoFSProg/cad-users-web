@@ -31,7 +31,7 @@ export const Input = styled.input`
   background: #ffffe6;
   border: 1px solid #cccc00;
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 520px) {
     width: 16.1rem;
   }
 `
@@ -56,7 +56,7 @@ export const Button = styled.button`
     cursor: pointer;
   }
 
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 520px) {
     cursor: pointer;
     width: 16.9rem;
   }
