@@ -1,7 +1,15 @@
 import { useState } from 'react'
 import api from './api'
 import Header from './components/Header/Header'
-import { Container, DivFormRegister, Image, Button, Input, TitleSpan, Title } from './style-app'
+import {
+  ContainerRegister,
+  DivFormRegister,
+  Image,
+  Button,
+  Input,
+  TitleSpan,
+  Title,
+} from './style-app'
 import Imagem from './assets/foto2.jpeg'
 
 function Register() {
@@ -30,7 +38,7 @@ function Register() {
     <div>
       <Header />
 
-      <Container>
+      <ContainerRegister>
         <Image src={Imagem} alt="imagem" />
         <DivFormRegister>
           <Title style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
@@ -100,7 +108,7 @@ function Register() {
             <Button type="submit">Cadastrar</Button>
           </form>
         </DivFormRegister>
-      </Container>
+      </ContainerRegister>
     </div>
   )
 }

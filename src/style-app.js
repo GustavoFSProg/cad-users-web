@@ -1,13 +1,28 @@
 import styled from 'styled-components'
 import Tigre from './assets/ponte.jpg'
 
-export const Container = styled.div`
+export const ContainerApp = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
   width: 100vw;
   height: 100vh;
-  margin-top: 50px;
+
+  @media screen and (max-width: 600px) {
+    margin-top: 40px;
+  }
+`
+
+export const ContainerRegister = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+
+  @media screen and (max-width: 600px) {
+    margin-top: 100px;
+  }
 `
 export const Image = styled.img`
   display: flex;

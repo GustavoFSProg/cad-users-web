@@ -4,7 +4,7 @@ import './App.css'
 import Header from './components/Header/Header'
 import Imagem from './assets/foto.jpg'
 
-import { Container, DivFormApp, Button, Image, Title, Input, TitleSpan } from './style-app'
+import { ContainerApp, DivFormApp, Button, Image, Title, Input, TitleSpan } from './style-app'
 
 function App() {
   const [email, setEmail] = useState('')
@@ -29,7 +29,7 @@ function App() {
     <>
       <Header />
 
-      <Container>
+      <ContainerApp>
         <Image src={Imagem} alt="imagem" />
         <DivFormApp>
           <Title>LOGIN</Title>
@@ -84,7 +84,7 @@ function App() {
             <Button type="submit">Login</Button>
           </form>
         </DivFormApp>
-      </Container>
+      </ContainerApp>
     </>
   )
 }
