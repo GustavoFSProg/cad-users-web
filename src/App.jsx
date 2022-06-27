@@ -1,9 +1,10 @@
 import { useState } from 'react'
-import { Link } from 'react-router-dom'
 import api from './api'
 import './App.css'
 import Header from './components/Header/Header'
-import { Container, Button, Title, Input, TitleSpan } from './style-app'
+import Imagem from './assets/foto.jpg'
+
+import { Container, Button, Image, Title, Input, TitleSpan } from './style-app'
 
 function App() {
   const [email, setEmail] = useState('')
@@ -30,16 +31,19 @@ function App() {
     <>
       <Header />
       <Container>
-        <Title>LOGIN</Title>
-        <div>
-          {/* <div
-            style={{
-              display: 'flex',
-              justifyContent: 'center',
-              alignItems: 'center',
-              // width: '82%',
-            }}
-          > */}
+        <Image src={Imagem} alt="imagem" />
+        <div
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            flexDirection: 'column',
+            flex: '1',
+            marginTop: '-115px',
+          }}
+        >
+          <Title>LOGIN</Title>
+
           <form
             style={{
               display: 'flex',

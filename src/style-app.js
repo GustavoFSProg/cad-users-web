@@ -2,10 +2,19 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   width: 100vw;
   height: 100vh;
+`
+export const Image = styled.img`
+  display: flex;
+  width: 50%;
+  height: 100%;
+
+  @media screen and (max-width: 720px) {
+    display: none;
+  }
 `
 export const TitleSpan = styled.span`
   font-family: Roboto;
@@ -64,6 +73,8 @@ export const Button = styled.button`
 export const Title = styled.span`
   font-family: Titan One;
   font-size: 2.5rem;
-  margin-top: 35px;
   color: #006699;
+
+  display: flex;
+  justify-content: start;
 `
