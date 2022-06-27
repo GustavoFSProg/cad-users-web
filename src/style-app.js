@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import Imagem from './assets/foto.jpg'
 
 export const Container = styled.div`
   display: flex;
@@ -77,6 +78,7 @@ export const Title = styled.span`
 
   display: flex;
   justify-content: start;
+  padding-top: 85px;
 `
 export const DivFormApp = styled.div`
   display: flex;
@@ -88,6 +90,10 @@ export const DivFormApp = styled.div`
 
   @media screen and (max-width: 700px) {
     margin-top: 25px;
+    background: url(${Imagem}) no-repeat;
+    background-size: cover;
+    margin-top: -195px;
+    padding-bottom: 20px;
   }
 `
 export const DivFormRegister = styled.div`
@@ -99,6 +105,10 @@ export const DivFormRegister = styled.div`
   margin-top: -115px;
 
   @media screen and (max-width: 700px) {
-    margin-top: 55px;
+    margin-top: 25px;
+    background: url(${Imagem}) no-repeat;
+    background-size: cover;
+    margin-top: -105px;
+    padding-bottom: 20px;
   }
 `

@@ -20,10 +20,6 @@ function Register() {
 
       await api.post('/register', dados)
 
-      // console.log(data.token)
-
-      // history.push('/dashboard')
-
       return alert('Cadastro  realizado com sucesso!')
     } catch (error) {
       return alert(`Deu erro no front do no Login ${error}`)
