@@ -12,6 +12,8 @@ export const TitleSpan = styled.span`
   font-size: 1.2rem;
   color: green;
   align-items: flex-start;
+  justify-content: center;
+  text-align: left;
   display: flex;
   margin-left: 10px;
   margin-bottom: 8px;
@@ -32,7 +34,7 @@ export const Input = styled.input`
   background: #ffffe6;
   border: 1px solid #cccc00;
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 500px) {
     width: 100%;
   }
 `

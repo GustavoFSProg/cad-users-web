@@ -35,21 +35,66 @@ function Register() {
       <Title style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
         CADASTRO
       </Title>
-      <Container style={{ marginTop: '22px', width: '98%' }}>
-        <form onSubmit={handleSubmit}>
-          <TitleSpan>Name:</TitleSpan>
-          <Input id="name" type="name" value={name} onChange={(e) => setName(e.target.value)} />
+      <Container style={{ marginTop: '22px', width: '100%' }}>
+        <form
+          style={{
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'center',
+            alignItems: 'center',
+            height: 'auto',
+            paddingBottom: '30px',
+            paddingTop: '30px',
+            // width: '100vw',
+          }}
+          onSubmit={handleSubmit}
+        >
+          <div
+            style={{
+              alignItems: 'flex-start',
+              flexDirection: 'column',
+              justifyContent: 'center',
+              display: 'flex',
+            }}
+          >
+            <TitleSpan>Nome:</TitleSpan>
+            <Input id="name" type="name" value={name} onChange={(e) => setName(e.target.value)} />
+          </div>
 
-          <TitleSpan>Email:</TitleSpan>
-          <Input id="email" type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
+          <div
+            style={{
+              alignItems: 'flex-start',
+              flexDirection: 'column',
+              justifyContent: 'center',
+              display: 'flex',
+            }}
+          >
+            <TitleSpan>Email:</TitleSpan>
+            <Input
+              id="email"
+              type="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+            />
+          </div>
 
-          <TitleSpan>Senha:</TitleSpan>
-          <Input
-            type="password"
-            id="password"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-          />
+          <div
+            style={{
+              alignItems: 'flex-start',
+              flexDirection: 'column',
+              justifyContent: 'center',
+              display: 'flex',
+            }}
+          >
+            <TitleSpan>Senha:</TitleSpan>
+            <Input
+              type="password"
+              id="password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+            />
+          </div>
+
           <br />
           <br />
           <Button type="submit">Cadastrar</Button>
