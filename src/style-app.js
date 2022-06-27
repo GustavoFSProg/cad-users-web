@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import Imagem from './assets/foto.jpg'
+import Tigre from './assets/ponte.jpg'
 
 export const Container = styled.div`
   display: flex;
@@ -26,6 +26,10 @@ export const TitleSpan = styled.span`
   margin-left: 10px;
   margin-bottom: 8px;
   margin-top: 19px;
+
+  @media screen and (max-width: 500px) {
+    color: #e6ffe6;
+  }
 `
 export const Input = styled.input`
   font-family: Roboto;
@@ -74,11 +78,15 @@ export const Button = styled.button`
 export const Title = styled.span`
   font-family: Titan One;
   font-size: 2.5rem;
-  color: #006699;
+  color: #007399;
 
   display: flex;
   justify-content: start;
   padding-top: 85px;
+
+  @media screen and (max-width: 700px) {
+    color: #00aaff;
+  }
 `
 export const DivFormApp = styled.div`
   display: flex;
@@ -90,7 +98,7 @@ export const DivFormApp = styled.div`
 
   @media screen and (max-width: 700px) {
     margin-top: 25px;
-    background: url(${Imagem}) no-repeat;
+    background: url(${Tigre}) no-repeat;
     background-size: cover;
     margin-top: -195px;
     padding-bottom: 20px;
@@ -106,7 +114,7 @@ export const DivFormRegister = styled.div`
 
   @media screen and (max-width: 700px) {
     margin-top: 25px;
-    background: url(${Imagem}) no-repeat;
+    background: url(${Tigre}) no-repeat;
     background-size: cover;
     margin-top: -105px;
     padding-bottom: 20px;
