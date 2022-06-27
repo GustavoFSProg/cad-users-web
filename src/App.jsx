@@ -51,7 +51,7 @@ function App() {
               height: 'auto',
               paddingBottom: '30px',
               paddingTop: '30px',
-              // width: '100vw',
+              width: '100%',
             }}
             onSubmit={handleSubmit}
           >

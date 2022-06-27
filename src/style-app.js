@@ -23,7 +23,6 @@ export const Input = styled.input`
   color: green;
   display: flex;
   align-items: center;
-  align-items: center;
   width: 28rem;
   height: 40px;
   border-radius: 14px;
@@ -33,14 +32,15 @@ export const Input = styled.input`
   border: 1px solid #cccc00;
 
   @media screen and (max-width: 500px) {
-    width: 100%;
+    width: 16.1rem;
   }
 `
 export const Button = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  width: 28rem;
+
   border-radius: 10px;
   height: 3rem;
   text-align: center;
@@ -58,7 +58,7 @@ export const Button = styled.button`
 
   @media screen and (max-width: 700px) {
     cursor: pointer;
-    width: 104%;
+    width: 16.9rem;
   }
 `
 export const Title = styled.span`
