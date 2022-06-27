@@ -39,7 +39,7 @@ export const Button = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 28rem;
+  width: 29rem;
 
   border-radius: 10px;
   height: 3rem;
