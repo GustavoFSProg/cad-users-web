@@ -78,7 +78,7 @@ export const Title = styled.span`
   display: flex;
   justify-content: start;
 `
-export const DivForm = styled.div`
+export const DivFormApp = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -87,6 +87,18 @@ export const DivForm = styled.div`
   margin-top: -115px;
 
   @media screen and (max-width: 700px) {
-    margin-top: 85px;
+    margin-top: 25px;
+  }
+`
+export const DivFormRegister = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+  margin-top: -115px;
+
+  @media screen and (max-width: 700px) {
+    margin-top: 55px;
   }
 `
