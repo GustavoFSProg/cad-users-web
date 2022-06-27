@@ -7,6 +7,8 @@ export const Container = styled.div`
   align-items: center;
   width: 100vw;
   height: 100vh;
+
+  z-index: 999;
 `
 export const Image = styled.img`
   display: flex;
@@ -102,6 +104,8 @@ export const DivFormApp = styled.div`
     background-size: cover;
     margin-top: -195px;
     padding-bottom: 20px;
+
+    z-index: 0;
   }
 `
 export const DivFormRegister = styled.div`
