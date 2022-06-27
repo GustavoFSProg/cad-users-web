@@ -4,7 +4,7 @@ import './App.css'
 import Header from './components/Header/Header'
 import Imagem from './assets/foto.jpg'
 
-import { Container, Button, Image, Title, Input, TitleSpan } from './style-app'
+import { Container, DivForm, Button, Image, Title, Input, TitleSpan } from './style-app'
 
 function App() {
   const [email, setEmail] = useState('')
@@ -16,8 +16,6 @@ function App() {
     try {
       console.log({ email, password })
       const { data } = await api.post('/login', { email, password })
-
-      // console.log(data.token)
 
       localStorage.setItem('Token', data.token)
 
@@ -32,16 +30,7 @@ function App() {
       <Header />
       <Container>
         <Image src={Imagem} alt="imagem" />
-        <div
-          style={{
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
-            flexDirection: 'column',
-            flex: '1',
-            marginTop: '-115px',
-          }}
-        >
+        <DivForm>
           <Title>LOGIN</Title>
 
           <form
@@ -94,7 +83,7 @@ function App() {
             <br />
             <Button type="submit">Login</Button>
           </form>
-        </div>
+        </DivForm>
         {/* </div> */}
       </Container>
     </>

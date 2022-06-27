@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import api from './api'
 import Header from './components/Header/Header'
-import { Container, Image, Button, Input, TitleSpan, Title } from './style-app'
+import { Container, Image, DivForm, Button, Input, TitleSpan, Title } from './style-app'
 import Imagem from './assets/foto2.jpeg'
 
 function Register() {
@@ -36,16 +36,7 @@ function Register() {
 
       <Container>
         <Image src={Imagem} alt="imagem" />
-        <div
-          style={{
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
-            flexDirection: 'column',
-            flex: '1',
-            marginTop: '-105px',
-          }}
-        >
+        <DivForm>
           <Title style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             CADASTRO
           </Title>
@@ -112,7 +103,7 @@ function Register() {
             <br />
             <Button type="submit">Cadastrar</Button>
           </form>
-        </div>
+        </DivForm>
       </Container>
     </div>
   )

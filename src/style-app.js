@@ -78,3 +78,15 @@ export const Title = styled.span`
   display: flex;
   justify-content: start;
 `
+export const DivForm = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+  margin-top: -115px;
+
+  @media screen and (max-width: 700px) {
+    margin-top: 5px;
+  }
+`
