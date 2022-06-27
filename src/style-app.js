@@ -11,10 +11,8 @@ export const TitleSpan = styled.span`
   font-family: Roboto;
   font-size: 1.2rem;
   color: green;
-  align-items: flex-start;
-  justify-content: center;
+
   text-align: left;
-  display: flex;
   margin-left: 10px;
   margin-bottom: 8px;
   margin-top: 19px;
