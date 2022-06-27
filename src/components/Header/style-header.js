@@ -3,10 +3,22 @@ import styled from 'styled-components'
 export const Container = styled.div`
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   width: 100%;
   height: 48px;
   background: #0099e6;
+`
+export const Links = styled.div`
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 48px;
+  background: #0099e6;
+  justify-content: space-evenly;
+
+  @media screen and (max-width: 600px) {
+    display: none;
+  }
 `
 export const TitleSpan = styled.span`
   font-family: Roboto;

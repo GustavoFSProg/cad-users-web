@@ -5,10 +5,13 @@ import Header from './components/Header/Header'
 import Imagem from './assets/foto.jpg'
 
 import { ContainerApp, DivFormApp, Button, Image, Title, Input, TitleSpan } from './style-app'
+import { useHistory } from 'react-router-dom'
 
 function App() {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
+
+  const history = useHistory()
 
   async function handleSubmit(event) {
     event.preventDefault()
@@ -18,6 +21,8 @@ function App() {
       const { data } = await api.post('/login', { email, password })
 
       localStorage.setItem('Token', data.token)
+
+      history.push('/dashboard')
 
       return alert('Login  realizado com sucesso!')
     } catch (error) {
