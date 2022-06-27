@@ -5,7 +5,7 @@ export const Container = styled.div`
   align-items: center;
   justify-content: flex-start;
   width: 100%;
-  height: 48px;
+  height: 50px;
   background: #0099e6;
 `
 export const Links = styled.div`
