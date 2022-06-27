@@ -64,6 +64,6 @@ export const Button = styled.button`
 export const Title = styled.span`
   font-family: Titan One;
   font-size: 2.5rem;
-  margin-top: 20px;
+  margin-top: 35px;
   color: #006699;
 `
