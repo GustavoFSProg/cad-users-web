@@ -11,6 +11,7 @@ import {
   Title,
 } from './style-app'
 import Imagem from './assets/foto2.jpeg'
+import Footer from './components/Footer/Footer'
 
 function Register() {
   const [name, setName] = useState('')
@@ -109,6 +110,7 @@ function Register() {
           </form>
         </DivFormRegister>
       </ContainerRegister>
+      <Footer />
     </div>
   )
 }

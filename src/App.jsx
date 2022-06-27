@@ -6,6 +6,7 @@ import Imagem from './assets/foto.jpg'
 
 import { ContainerApp, DivFormApp, Button, Image, Title, Input, TitleSpan } from './style-app'
 import { useHistory } from 'react-router-dom'
+import Footer from './components/Footer/Footer'
 
 function App() {
   const [email, setEmail] = useState('')
@@ -90,6 +91,7 @@ function App() {
           </form>
         </DivFormApp>
       </ContainerApp>
+      <Footer />
     </>
   )
 }

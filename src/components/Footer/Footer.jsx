@@ -19,11 +19,11 @@ function Footer() {
               color: 'white',
             }}
             target="_blank"
-            href={`https://wa.me/+5551993965345?text=Olá, gostaria de um orçamento`}
+            href={`#Olá, gostaria de um orçamento`}
           >
             <img src={Whatsapp} alt="whataspp" width="25" />
             <span style={{ marginLeft: '10px', fontFamily: 'Arial', fontSize: '17px' }}>
-              (51)-993965345
+              (51)-9966996
             </span>
           </a>
         </ContainerImages>
@@ -38,22 +38,22 @@ function Footer() {
               color: 'white',
             }}
             target="_blank"
-            href={`mailto:gerusagamm@gmail.com?subject=Minha Mensagem&body=Olá, Bom dia!
+            href={`mailto:ggg@gmail.com?subject=Minha Mensagem&body=Olá, Bom dia!
            
           `}
           >
             <img src={Email} alt="email" width="25" />
             <span style={{ marginLeft: '10px', fontFamily: 'Arial', fontSize: '17px' }}>
-              gerusagamm@gmail.com
+              fulano@gmail.com
             </span>
           </a>
         </ContainerImages>
         <ContainerText>
-          <a href=" https://www.facebook.com/profile.php?id=100011357965761">
+          <a href="#">
             <img src={Face} alt="whataspp" width="35" style={{ marginRight: '25px' }} />
           </a>
 
-          <a href="https://www.instagram.com/espaco.vidya/?hl=pt-br">
+          <a href="#">
             <img src={Insta} alt="whataspp" width="35" />
           </a>
         </ContainerText>
