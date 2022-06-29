@@ -44,7 +44,7 @@ export const TitleSpan = styled.span`
   margin-top: 19px;
 
   @media screen and (max-width: 500px) {
-    color: #e6ffe6;
+    color: green;
   }
 `
 export const Input = styled.input`
