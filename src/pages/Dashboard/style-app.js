@@ -7,7 +7,6 @@ export const Container = styled.div`
   align-items: center;
   width: 98vw;
   height: 100vh;
-  background: url(${Dash}) no-repeat;
   background-size: cover;
 
   @media screen and (max-width: 600px) {
